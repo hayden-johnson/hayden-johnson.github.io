@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Hayden Johnson"
+  name             : "Hayden R. Johnson"
   #pronouns         : # example: "she/her"  
   bio              : "Predoctoral Researcher"
   location         : "Leuven, Belgium"
-  employer         : "nerf"
+  employer         : "NERF / KU Leuven"
   uri              : # URL
   email            : "joh18320@umn.edu" 
 
