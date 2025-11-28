@@ -14,6 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  font-size: .85rem;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -28,29 +29,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+/* Page titles (top “About” title) */
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: 1rem;  // slightly bigger than body (.85rem)
 }
 
+/* Section headings (“Publications”, etc.) */
 h2 {
-  font-size: $type-size-4;
+  font-size: 1rem;     // just above body text
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: 0.95rem;  // optional smaller subheading
 }
 
-h4 {
-  font-size: $type-size-6;
-}
-
-h5 {
-  font-size: $type-size-6;
-}
-
-h6 {
-  font-size: $type-size-6;
+/* Keep smaller headings close to body size */
+h4, h5, h6 {
+  font-size: 0.9rem;
 }
 
 small, .small {

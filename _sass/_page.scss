@@ -399,3 +399,16 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.author__avatar {
+  img {
+    max-width: 175px;
+    border-radius: 50%;
+    margin-top: -45px; // raise photo slightly
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid $border-color;
+    }
+  }
+}
