@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Hayden Johnson"
   #pronouns         : # example: "she/her"  
-  bio              : "Predoctoral Researcher"
-  location         : "Leuven, Belgium"
-  employer         : "NERF / KU Leuven"
+  bio              : "PhD Student"
+  location         : "Brussels, Belgium"
+  employer         : "VIB.AI / KU Leuven"
   uri              : # URL
   #email            : "joh18320@umn.edu" 
 
@@ -205,7 +205,7 @@ collections:
   #  permalink: /:collection/:path/
   #publications:
   #  output: true
-  #  permalink: /:collection/:path/
+  #  permalink: /publication/:path/
   #portfolio:
   #  output: true
   #  permalink: /:collection/:path/
