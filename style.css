@@ -1,62 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
-
-html {
-  /* light blue page background */
-  background-color: rgba(173, 216, 230, 0.3); /* lightblue with transparency */
-}
+/* Fonts */
 
 body {
-  margin: 1em auto;
-  max-width: 38em;
-  font-size: 1em;
-  font-family: 'Kaisei HarunoUmi', serif;
-  color: rgb(30, 50, 80); /* dark blue-gray text */
-  text-align: justify;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.2;
+	/* Keep content from stretching edge-to-edge */
+	max-width: 700px;
+	margin: 0.25in auto;
+	padding: 0 0.75in;
+	text-align: justify;
 }
 
-h1, h2 {
-  line-height: 2;
-  padding-top: 3em;
+/* Links */
+
+a {
+	color: #222;
+	text-decoration: underline;
 }
 
-#email {
-  font-family: monospace;
+/* Header layout */
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+	margin-bottom: 1em;
 }
 
-#bio {
-  padding-top: 2em;
+.profile-photo {
+	flex-shrink: 0;
+	border: 1px solid #888;
 }
 
-div.title {
-  font-weight: bold;
+.header-info {
+	flex: 1;
 }
 
-li {
-  margin: 1em auto;
-  line-height: 1.5;
+.name {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
 }
 
-/* links in a stronger light-blue */
-a:link {
-  color: #1d4ed8; /* medium blue */
+.title {
+	font-size: 1.25em;
+	margin-top: -0.5em;
+	margin-bottom: -.5em;
 }
 
-a:visited {
-  color: #1d4ed8;
+ul li {
+	margin: 1ex 0ex;
 }
 
-#links {
-  margin-top: 3em;  /* increase this for more space */
+dl {
+	font-size: 1em;
+	margin-bottom: 1.5em;
 }
 
-#links h2 {
-  margin-bottom: 0.2em;  /* keep heading close to links */
+dt {
+	float: left;
+	clear: left;
+	width: 6.5em;
+	padding: 0 0 0 0.5em;
+	text-align: right;
+	font-weight: bold;
 }
 
-#links h3 {
-  margin-bottom: 0.1em;  /* smaller gap under “Links” heading */
+dd {
+	margin: 0 0 0 7.5em;
+	padding: 0 0.5em;
+	border-left: 1px solid #888;
+	text-align: justify;
 }
 
-#links p {
-  margin: 0;             /* no extra gap below the links */
+p {
+	text-align: justify;
+	font-size: 100%;
 }
