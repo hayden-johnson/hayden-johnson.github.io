@@ -1,26 +1,31 @@
-/* v3 — Technical: IBM Plex Sans body, IBM Plex Mono labels, slate palette */
+/* Fonts */
 
 body {
-	font-family: 'IBM Plex Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 14.5px;
-	line-height: 1.55;
-	color: #2c3140;
-	background-color: #f4f5f7;
-	max-width: 650px;
+	font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #2f2f2f;
+	background-color: #f7f6f3;
+	/* Keep content from stretching edge-to-edge */
+	max-width: 700px;
 	margin: 0.35in auto;
 	padding: 0 0.75in;
 	text-align: justify;
 }
 
+/* Links */
+
 a {
-	color: #2d4fa0;
+	color: #1a3e6f;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #1b317a;
+	color: #122b4d;
 	text-decoration: underline;
 }
+
+/* Header layout */
 
 .header {
 	display: flex;
@@ -31,7 +36,7 @@ a:hover {
 
 .profile-photo {
 	flex-shrink: 0;
-	border: 1px solid #b0b8cc;
+	border: 1px solid #888;
 }
 
 .header-info {
@@ -40,23 +45,19 @@ a:hover {
 
 .name {
 	font-size: 1.25em;
-	font-weight: 500;
-	color: #161c2d;
+	font-weight: bold;
+	color: #222;
 	margin-bottom: 0.5em;
-	letter-spacing: -0.005em;
 }
 
 .title {
-	font-size: 1.1em;
-	font-weight: 300;
+	font-size: 1.25em;
 	margin-top: -0.5em;
-	margin-bottom: -0.3em;
-	color: #4a5568;
+	margin-bottom: -.3em;
 }
 
 .header-info p:not(.name):not(.title) {
 	font-size: 0.85em;
-	color: #4a5568;
 }
 
 ul li {
@@ -84,12 +85,12 @@ ul li {
 
 .pub-list .pub-venue {
 	margin-top: 0.15em;
-	color: #6b7591;
+	color: #666;
 	font-size: 0.9em;
 }
 
 .me {
-	font-weight: 500;
+	font-weight: bold;
 }
 
 .pub-list em {
@@ -108,18 +109,14 @@ dt {
 	width: 6.5em;
 	padding: 0 0 0 0.5em;
 	text-align: right;
-	font-family: 'IBM Plex Mono', 'Courier New', monospace;
-	font-weight: 400;
-	font-size: 0.82em;
-	color: #6b7591;
-	letter-spacing: -0.02em;
-	padding-top: 0.1em;
+	font-weight: bold;
+	color: #494949;
 }
 
 dd {
 	margin: 0 0 0 7.5em;
 	padding: 0 0.5em;
-	border-left: 1px solid #c8cdd9;
+	border-left: 1px solid #e0e0e0;
 	text-align: justify;
 }
 
@@ -128,8 +125,3 @@ p {
 	font-size: 100%;
 }
 
-hr {
-	border: none;
-	border-top: 1px solid #c8cdd9;
-	margin: 1.5em 0;
-}
