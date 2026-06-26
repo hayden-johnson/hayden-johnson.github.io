@@ -96,6 +96,35 @@ ul li {
 	margin: 1ex 0ex;
 }
 
+.news-list {
+	list-style: none;
+	padding-left: 0;
+	max-height: 9em;
+	overflow-y: auto;
+	margin: 0;
+}
+
+.news-list li {
+	display: flex;
+	gap: 1em;
+	padding: 0.35em 0;
+	border-bottom: 1px solid #eaecf0;
+	line-height: 1.45;
+}
+
+.news-list li:last-child {
+	border-bottom: none;
+}
+
+.news-date {
+	font-family: 'IBM Plex Mono', 'Courier New', monospace;
+	font-size: 0.82em;
+	color: #6b7591;
+	white-space: nowrap;
+	padding-top: 0.1em;
+	min-width: 5.5em;
+}
+
 .pub-section-heading {
 	font-family: 'IBM Plex Mono', 'Courier New', monospace;
 	font-size: 0.82em;
