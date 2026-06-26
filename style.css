@@ -63,6 +63,16 @@ ul li {
 	margin: 1ex 0ex;
 }
 
+.pub-section-heading {
+	font-family: 'IBM Plex Mono', 'Courier New', monospace;
+	font-size: 0.82em;
+	font-weight: 400;
+	color: #6b7591;
+	letter-spacing: -0.02em;
+	margin-top: 0;
+	margin-bottom: 0.4em;
+}
+
 .pub-list {
 	list-style: none;
 	padding-left: 0;
@@ -98,8 +108,8 @@ ul li {
 
 dl {
 	font-size: .85em;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 dt {
