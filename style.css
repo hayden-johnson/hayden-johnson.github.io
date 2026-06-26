@@ -12,20 +12,19 @@ body {
 	text-align: justify;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
 	body {
-		margin: 1rem auto;
-		font-size: 15px;
+		margin: 1.25rem auto;
 	}
 
 	.header {
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 1em;
+		gap: 1.25em;
 	}
 
 	.profile-photo {
-		width: 100%;
+		max-width: 180px;
 		height: auto;
 	}
 
@@ -34,7 +33,7 @@ body {
 		width: auto;
 		text-align: left;
 		padding: 0;
-		margin-bottom: 0.2em;
+		margin-bottom: 0.3em;
 	}
 
 	dd {
@@ -42,6 +41,15 @@ body {
 		border-left: none;
 		border-top: 1px solid #c8cdd9;
 		padding: 0.5em 0 0 0;
+	}
+
+	.book-table-wrap {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.dotted-links {
+		padding-left: 0;
 	}
 }
 
@@ -172,6 +180,7 @@ dl {
 	font-size: 1em;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	overflow: hidden;
 }
 
 dt {
