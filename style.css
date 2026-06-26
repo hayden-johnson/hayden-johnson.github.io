@@ -143,3 +143,62 @@ hr {
 	border-top: 1px solid #c8cdd9;
 	margin: 1.5em 0;
 }
+
+.dotted-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 1.1em;
+	align-items: center;
+	text-align: left;
+	padding-left: 0.75em;
+}
+
+.dotted-links a + a::before {
+	content: '·';
+	margin-right: 1.1em;
+	color: #9aa0b0;
+	font-weight: 400;
+}
+
+.page-header {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	margin-bottom: 1em;
+}
+
+.page-back {
+	font-family: 'IBM Plex Mono', 'Courier New', monospace;
+	font-size: 0.82em;
+	color: #6b7591;
+}
+
+.book-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.85em;
+	margin: 1.5em 0;
+}
+
+.book-table th {
+	font-family: 'IBM Plex Mono', 'Courier New', monospace;
+	font-weight: 400;
+	font-size: 0.9em;
+	color: #6b7591;
+	text-align: left;
+	padding: 0.4em 0.75em 0.6em 0;
+	border-bottom: 1px solid #c8cdd9;
+	letter-spacing: -0.01em;
+}
+
+.book-table td {
+	padding: 0.55em 0.75em 0.55em 0;
+	vertical-align: top;
+	border-bottom: 1px solid #eaecf0;
+	color: #2c3140;
+}
+
+.book-table td:last-child,
+.book-table th:last-child {
+	color: #6b7591;
+}
